@@ -19,7 +19,6 @@ public class Socio {
     private String dni;
     private String tarjetaSanitaria;
     private String pasaporte;
-
     private LocalDateTime fechaNacimiento;
     private String nombre;
     private String apellido1;
@@ -40,9 +39,7 @@ public class Socio {
     private boolean lopd;
     private String urlFoto;
     private int idFormaPago;
-
     @Column (columnDefinition = "TIMESTAMP")
     private LocalDateTime fechaRegistro;
-
     private LocalDateTime fechaUltimoAcceso;
 }

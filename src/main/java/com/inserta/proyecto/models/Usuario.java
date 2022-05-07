@@ -23,39 +23,6 @@ public class Usuario {
     private int idSocio;
     private int idRolUsuario;
     private int estado;
-
     private LocalDateTime fechaRegistro;
-
     private LocalDateTime fechaUltimoAcceso;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
